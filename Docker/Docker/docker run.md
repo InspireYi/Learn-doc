@@ -1,0 +1,7 @@
+-it  交互模式启动  
+-d  后台模式  
+-p [hostport:dockerport]  指定host端口与docker端口的映射  
+-v [hostaddr:dockeraddr]  指定host地址与docker地址的映射  
+-m 限制内存大小为xx，swap大小为xx  
+--memory-swap 限制内存和swap分区大小为xx  
+-c 限制使用CPU的权重，默认为1024  
