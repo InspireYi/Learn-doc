@@ -9,6 +9,6 @@
         -r 递归复制文件、文件夹
     速记：copy
     作用：拷贝文件或文件夹至目标
-    如：
+    示例：
         cp ~/.bashrc tmp/bashrc //将home目录下的.bashrc复制到/tmp下，并命名为bashrc
         cp -i ~/.bashrc tmp/bashrc //将home目录下的.bashrc复制到/tmp下，并命名为bashrc，覆盖前先询问
